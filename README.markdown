@@ -163,7 +163,7 @@ song = Song.new(name: 'Aaron', length: 190)
 
 ## constructable\_attributes method
 
-You can all the constructable attributes and their values of your class as a hash,
+You can get all the constructable attributes and their values of your class as a hash,
 by calling the ```constructable_attributes``` method from within an instance
 of your class:
 
