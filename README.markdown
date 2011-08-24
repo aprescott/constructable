@@ -34,7 +34,7 @@ both:
 class Train
   constructable :speed, readable: true
   constructable :next_stop, writable: true
-  constructable :location, accsessible: true
+  constructable :location, accessible: true
 end
 
 orient_express = Train.new(speed: 100)
